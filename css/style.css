@@ -1,0 +1,84 @@
+@font-face{
+	font-family: 'Krungthep'; 
+	src: url('../fonts/Krungthep.ttf');
+}
+html {	
+	background-color: #1b692d; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+body {
+	min-width: 1200px;
+}
+.menu {
+	display: block;
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 100px;
+	display: none;
+}
+.main-header-logo {
+	text-align: center;
+}
+.main-header-logo img {
+	margin-top: 94px;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 28px;
+
+	color: #FFFFFF;
+}
+.start {
+	display: inline-block;
+	margin-top: 20px;
+
+	border-radius: 4px;
+	background-color: #FFFFFF;
+
+	text-decoration: none;
+	color: green;
+	padding: 10px 20px 10px 20px;
+
+	text-align: center;
+}
+.field {
+	margin-top: 10px;
+}
+.field tr{
+	padding: 0;
+}
+.field tr th {
+	width: 131px;
+	height: 177px;
+	padding: 0;
+}
+.card-class {
+	width: 113px;
+	height: 157px;
+}
+.card-class.backward {
+	content: url('../img/cards/back.png');
+}
+.score-text{
+	display: inline-block;
+	float: right;
+	padding-right: 6px;
+
+	color: white;
+}
+.score{
+	display: inline-block;
+	margin-right: 20px;
+	float: right;
+
+	font-family: Krungthep;
+	color: white;
+}
+.startAgain{
+	color: white;
+	text-decoration: none;
+}
