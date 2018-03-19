@@ -1,4 +1,4 @@
 # memorygame
 
- ivanovladyslav.github.io/memory-game/game.html
+ https://ivanovladyslav.github.io/memory-game/game.html
 
